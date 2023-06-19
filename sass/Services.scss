@@ -1,0 +1,21 @@
+.services {
+  padding: 1rem 2rem;
+
+  @media (max-width: 575.98px) {
+    padding: 1rem 1rem;
+  }
+
+  &__cards {
+    @media (max-width: 991.98px) {
+      width: 100% !important;
+    }
+  }
+}
+
+.cards {
+  min-height: 300px;
+
+  @media (max-width: 991.98px) {
+    min-height: 290px;
+  }
+}

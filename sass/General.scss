@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif !important;
+}
+
+.container {
+  padding: 0rem 1.5rem !important;
+}
+
+.font-sm {
+  font-size: 14px !important;
+  color: #333 !important;
+  letter-spacing: 1px;
+}
+
+.font-md {
+  font-size: 18px !important;
+  color: #333 !important;
+  letter-spacing: 1px;
+
+  @media (max-width: 575.98px) {
+    font-size: 15px !important;
+  }
+}
+
+.font-secondary-title {
+  font-size: 18px;
+  color: #555;
+  letter-spacing: 1px;
+
+  @media (max-width: 575.98px) {
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+}
+
+.font-secondary-paragraph {
+  font-size: 16px;
+  color: #555;
+
+  @media (max-width: 575.98px) {
+    font-size: 15px;
+  }
+}
+
+#title {
+  font-weight: 900 !important;
+}
+
+.main__bg {
+  background-color: #023e8a;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1199.98px) {
+  .hide_1199 {
+    display: none !important;
+  }
+}
+
+.effect {
+  animation: effect 0.4s forwards;
+
+  @keyframes effect {
+    from {
+      scale: 0.9;
+    }
+
+    to {
+      scale: 1;
+    }
+  }
+}

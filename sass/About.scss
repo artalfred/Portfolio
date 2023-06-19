@@ -1,0 +1,23 @@
+.about {
+  padding: 8rem 0rem;
+  background-color: #fafafa;
+
+  &__info {
+    margin-top: 6rem;
+
+    @media (max-width: 575.98px) {
+      margin-top: 4rem;
+    }
+  }
+
+  &__parent {
+    margin-top: 2rem !important;
+  }
+
+  &__skills {
+    font-size: 14px;
+    padding: 0.6rem 1.4rem;
+    color: #666;
+    background: rgba(153, 153, 153, 0.2);
+  }
+}
