@@ -1,9 +1,9 @@
 // FEATURED PROJECTS
-import accuDaily from "./img/project/accuDaily.svg";
-import bayanihan from "./img/project/bayanihan.svg";
-import anatoli from "./img/project/anatoli.svg";
-import alpha from "./img/project/alpha.svg";
-import easyBank from "./img/project/easyBank.svg";
+import accuDaily from "./img/project/accuDaily.png";
+import bayanihan from "./img/project/bayanihan.png";
+import anatoli from "./img/project/anatoli.png";
+import alpha from "./img/project/alpha.png";
+import easyBank from "./img/project/easyBank.png";
 
 import alpha_overview from "./img/others/alpha_overview.png";
 import accuDaily_overview from "./img/others/accuDaily_overview.png";
