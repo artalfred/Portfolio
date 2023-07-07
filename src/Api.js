@@ -4,16 +4,49 @@ import bayanihan from "./img/project/bayanihan.png";
 import anatoli from "./img/project/anatoli.png";
 import alpha from "./img/project/alpha.png";
 import easyBank from "./img/project/easyBank.png";
+import thriveLuxe from "./img/project/thriveLuxe.png";
 
 import alpha_overview from "./img/others/alpha_overview.png";
 import accuDaily_overview from "./img/others/accuDaily_overview.png";
 import bayanihan_overview from "./img/others/bayanihan_overview.png";
 import anatoli_overview from "./img/others/anatoli_overview.png";
 import easyBank_overview from "./img/others/easyBank_overview.png";
+import triveLuxe_overview from "./img/others/triveLuxe_overview.png";
 
 const projects = [
   {
     id: 0,
+    img: thriveLuxe,
+    other: triveLuxe_overview,
+    name: "ThriveLuxe",
+    description:
+      "My e-commerce web app provides a seamless shopping experience with features such as easy product addition to the cart, customizable quantity increments, effortless product deletion, and a convenient search bar for quick product browsing.",
+    tools: [
+      {
+        id: 1,
+        used: "ReactJS",
+      },
+      {
+        id: 2,
+        used: "Bootstrap",
+      },
+      {
+        id: 3,
+        used: "SASS",
+      },
+      {
+        id: 3,
+        used: "CSS",
+      },
+    ],
+    url: "https://jazzy-churros-b580a3.netlify.app/",
+    overview:
+      "Welcome to my exciting new E-commerce project built using React, Sass, CSS, and Bootstrap. Explore a seamless shopping experience with a beautifully designed and responsive interface. Browse through a wide range of products, add them to your cart, and effortlessly manage your purchases. Enjoy the convenience of an intuitive search bar to find your desired items quickly. Powered by React, my project ensures a smooth and dynamic shopping journey for valued customers like you.",
+    challenges:
+      "While creating this project, one of the challenges I encountered was finding high-quality images that would suit my e-commerce website. It was difficult to source images that matched the aesthetic and requirements of the project, making it a challenge to create a visually appealing and cohesive user interface.",
+  },
+  {
+    id: 1,
     img: alpha,
     other: alpha_overview,
     name: "Alpha",
@@ -40,7 +73,7 @@ const projects = [
       "During development, I faced a challenge working with React's router due to my limited experience as a newcomer. However, I seized the opportunity to learn and grow. I dedicated time to studying React Router through online tutorials, documentation, and sample projects. As a result, I gained a solid understanding of route configuration, parameter handling, and nested routes. This enabled me to successfully implement the required routing functionality in my e-commerce web application.",
   },
   {
-    id: 1,
+    id: 2,
     img: accuDaily,
     other: accuDaily_overview,
     name: "AccuDaily",
@@ -67,7 +100,7 @@ const projects = [
       " I encountered a particularly problem that I couldn't solve on the first try. I encountered difficulties integrating an external API. The data wasn't rendering correctly using the initial approach of the fetch() function. To resolve this, I switched to using Axios, a popular library for API requests in React. I configured Axios, error handling, and leveraged React's state management to successfully retrieve and display the API data in the application.",
   },
   {
-    id: 2,
+    id: 3,
     img: bayanihan,
     other: bayanihan_overview,
     name: "Bayanihan Healthcare",
@@ -94,7 +127,7 @@ const projects = [
       "During the project, we faced the challenge of building a website using only JavaScript without a framework like React. This made development more complex and required us to handle various aspects manually. However, as a group, we collaborated and supported each other to overcome these difficulties. Despite the time constraint of completing the project within one week and three days, we worked diligently and utilized our collective skills to successfully deliver the final product.",
   },
   {
-    id: 3,
+    id: 4,
     img: anatoli,
     other: anatoli_overview,
     name: "Anatoli Services",
@@ -121,7 +154,7 @@ const projects = [
       "During the project, one of the main challenges we faced was a lack of sufficient time due to our part-time bootcamp schedule. Additionally, some of my groupmates had limited availability, making it difficult to collaborate effectively. To overcome these challenges, I took on the responsibility of completing the remaining pages myself. I worked diligently to ensure that the pages I developed were responsive and compatible across different devices, aiming to deliver a cohesive and seamless user experience. Despite the time constraints and limited resources, I strived to meet the project requirements and create a functional and visually appealing landing page.",
   },
   {
-    id: 4,
+    id: 5,
     img: easyBank,
     other: easyBank_overview,
     name: "EasyBank",
