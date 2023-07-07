@@ -9,7 +9,7 @@ function Nav() {
       <div className="container-fluid p-0">
         <div className="d-flex align-items-center gap-3">
           <a href="/" className="navbar-brand navbar__logo fw-semibold">
-            <img src={logo} alt="logo" style={{ height: "3rem" }} />
+            <img src={logo} alt="logo" style={{ height: "2.6rem" }} />
           </a>
         </div>
         <button
