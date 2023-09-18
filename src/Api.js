@@ -35,7 +35,7 @@ const projects = [
         used: "SASS",
       },
       {
-        id: 3,
+        id: 4,
         used: "CSS",
       },
     ],
@@ -93,7 +93,7 @@ const projects = [
         used: "CSS",
       },
     ],
-    url: "https://artalfred.github.io/AccuDaily/home",
+    url: "https://artalfred.github.io/AccuDaily",
     overview:
       " I developed a news website using ReactJS that utilizes the New York Times API to fetch and display the latest news and articles from around the world. The website serves as a platform for users to stay informed and access up-to-date news content. With ReactJS as the foundation, I implemented dynamic components to render and showcase the retrieved news articles.",
     challenges:
