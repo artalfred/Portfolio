@@ -93,7 +93,7 @@ const projects = [
         used: "CSS",
       },
     ],
-    url: "https://artalfred.github.io/AccuDaily",
+    url: "https://main--glistening-horse-73557a.netlify.app/",
     overview:
       " I developed a news website using ReactJS that utilizes the New York Times API to fetch and display the latest news and articles from around the world. The website serves as a platform for users to stay informed and access up-to-date news content. With ReactJS as the foundation, I implemented dynamic components to render and showcase the retrieved news articles.",
     challenges:
