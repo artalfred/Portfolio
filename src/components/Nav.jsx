@@ -2,15 +2,14 @@ import React from "react";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 import logo from "../img/logo/logo.png";
-import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid p-0">
         <div className="d-flex align-items-center gap-1">
-          <a href="/" className="navbar-brand navbar__logo fw-semibold">
-            <img src={logo} alt="logo" style={{ height: "1.3rem" }} />
+          <a href="/" className="navbar-brand navbar__logo">
+            <img src={logo} alt="logo" />
           </a>
         </div>
         <button

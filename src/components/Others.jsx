@@ -7,8 +7,6 @@ import ProjectNav from "../Reusable/ProjectNav";
 import { Link } from "react-router-dom";
 
 function Others() {
-  const { id } = useParams();
-
   return (
     <div className="others">
       <div

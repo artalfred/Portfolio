@@ -97,6 +97,8 @@ nav {
   .navbar__logo {
     font-size: 17px !important;
     color: #333; }
+    .navbar__logo img {
+      height: 1.3rem !important; }
 
 .home {
   top: 55%; }
