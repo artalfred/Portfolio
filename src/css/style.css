@@ -271,6 +271,10 @@ nav {
     @media (max-width: 575.98px) {
       .about__info {
         margin-top: 4rem; } }
+    @media (max-width: 375px) {
+      .about__info__button {
+        display: grid !important;
+        gap: 1px !important; } }
   .about__parent {
     margin-top: 2rem !important; }
   .about__skills {

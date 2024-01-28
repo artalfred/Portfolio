@@ -33,7 +33,7 @@ function About() {
                 <span className="fw-semibold">contact</span> me.
               </p>
 
-              <div className="d-flex gap-4">
+              <div className="about__info__button d-flex gap-4">
                 <a
                   href={resume}
                   download="bernales_art_alfred_resume"
