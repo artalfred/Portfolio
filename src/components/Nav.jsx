@@ -8,7 +8,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container-fluid p-0">
-        <div className="d-grid align-items-center gap-1">
+        <div className="d-flex align-items-center gap-1">
           <a href="/" className="navbar-brand navbar__logo fw-semibold">
             <img src={logo} alt="logo" style={{ height: "1.3rem" }} />
           </a>
