@@ -27,9 +27,9 @@ function Home() {
             className="text-center fw-lighter font-md"
             style={{ maxWidth: "50rem" }}
           >
-            Passionate junior frontend developer specializing in ReactJS,
-            dedicated to creating captivating web experiences. Let's collaborate
-            and bring your ideas to life!
+            Passionate frontend developer specializing in ReactJS, dedicated to
+            creating captivating web experiences. Let's collaborate and bring
+            your ideas to life!
           </p>
         </div>
 
