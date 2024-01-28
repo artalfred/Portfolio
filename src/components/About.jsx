@@ -34,7 +34,7 @@ function About() {
 
               <div className="d-flex gap-4">
                 <a
-                  href="./Assets/bernales_art_alfred_resume.pdf"
+                  href="/Assets/bernales_art_alfred_resume.pdf"
                   download
                   className="text-decoration-none"
                 >
