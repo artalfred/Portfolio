@@ -39,6 +39,7 @@ function Home() {
             position="center"
             fontSize="md"
             marginTop="5"
+            btnStyle={"warning"}
           />
         </a>
       </div>
