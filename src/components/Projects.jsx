@@ -46,6 +46,7 @@ function Projects() {
                         position="start"
                         fontSize="sm"
                         marginTop="4"
+                        btnStyle={"warning"}
                       />
                     </Link>
                   </div>

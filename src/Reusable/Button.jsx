@@ -1,12 +1,12 @@
 import React from "react";
 
-function Button({ title, position, fontSize, marginTop }) {
+function Button({ title, position, fontSize, marginTop, btnStyle, btnBorder }) {
   return (
     <div
       className={`d-flex mt-${marginTop} justify-content-${position} effect`}
     >
       <button
-        className={`btn btn-warning fw-bold py-3 px-5 font-sm font-${fontSize}`}
+        className={`btn btn-${btnStyle} fw-bold py-3 px-5 font-sm font-${fontSize} ${btnBorder}`}
         style={{ letterSpacing: "1.4px" }}
       >
         {title}

@@ -86,7 +86,12 @@ export default function Works() {
                 target="_blank"
                 className="text-decoration-none"
               >
-                <Button title="PROJECT LINK" position="start" fontSize="sm" />
+                <Button
+                  title="PROJECT LINK"
+                  position="start"
+                  fontSize="sm"
+                  btnStyle={"warning"}
+                />
               </a>
 
               <Link to="/projects">
