@@ -1,6 +1,7 @@
 import React from "react";
 import SecondaryTitle from "../Reusable/Title";
 import Button from "../Reusable/Button";
+import resume from "../Assets/bernales_art_alfred_resume.pdf";
 
 function About() {
   return (
@@ -34,8 +35,8 @@ function About() {
 
               <div className="d-flex gap-4">
                 <a
-                  href="/Assets/bernales_art_alfred_resume.pdf"
-                  download
+                  href={resume}
+                  download="bernales_art_alfred_resume"
                   className="text-decoration-none"
                 >
                   <Button
