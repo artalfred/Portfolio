@@ -17,7 +17,7 @@ function Footer() {
                 <img
                   src={logo_footer}
                   alt="logo"
-                  style={{ height: "3.6rem", marginLeft: "-1.3rem" }}
+                  style={{ height: "1.3.6rem", marginLeft: "-1.3rem" }}
                 />
               </a>
             </div>
