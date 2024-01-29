@@ -13,11 +13,11 @@ function Footer() {
         <div className="row py-5">
           <div className="col-12 col-lg-10 order-2 order-md-2 order-lg-1">
             <div className="d-flex align-items-center gap-1">
-              <a href="/" className="navbar-brand navbar__logo fw-semibold">
+              <a href="/" className="navbar-brand footer__logo fw-semibold">
                 <img
                   src={logo_footer}
                   alt="logo"
-                  style={{ height: "1.3.6rem", marginLeft: "-1.3rem" }}
+                  style={{ marginLeft: "-1.3rem" }}
                 />
               </a>
             </div>
