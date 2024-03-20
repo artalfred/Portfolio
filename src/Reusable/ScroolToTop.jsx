@@ -10,8 +10,6 @@ function ScroolToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
-  return <div>ScroolToTop</div>;
 }
 
 export default ScroolToTop;

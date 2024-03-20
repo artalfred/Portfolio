@@ -10,6 +10,7 @@ import Experience from "./components/Experience";
 function App() {
   return (
     <BrowserRouter>
+      <ScroolToTop />
       <Nav />
       <div className="App">
         <Routes>
