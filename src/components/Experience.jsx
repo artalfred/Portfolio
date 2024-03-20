@@ -58,12 +58,10 @@ function Experience() {
                 <h5 className="fs-6 green">01/2019 - 04/2019</h5>
               </div>
               <p className="belleza-regular">
-                Led a dynamic web development team in spearheading a website
-                overhaul for our company, utilizing WordPress to craft a
-                polished online presence. Seamlessly executed the transfer of
-                domains and servers to a new platform, ensuring smooth
-                transitions and enhanced functionality. Delivered outstanding
-                results through collaborative leadership and technical prowess.
+                Overseeing job applicant applications for our senior high work
+                immersion program. I manage database organization, ensure
+                accurate applicant tracking, and provide support throughout the
+                application process."
               </p>
             </div>
           </div>
