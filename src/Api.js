@@ -27,7 +27,7 @@ const Project = [
   {
     id: 1,
     name: "ThriveLuxe",
-    description: "An E-commerce Application for buying products",
+    description: "A news website utilizing New York Times API",
     image: ThriveLuxe,
     url: "https://jazzy-churros-b580a3.netlify.app/",
     TechStack: [
