@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import Logo_v4 from "../img/logo/Logo_v4.png";
 import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [scrollY, setScrollY] = useState(0);
@@ -84,10 +85,10 @@ function Nav() {
               </HashLink>
             </li>
             <li className="nav-item">
-              <HashLink
+              <NavLink
                 className="nav-link text-dark text-end font-sm belleza-regular navy-light"
                 aria-current="page"
-                to="#experience"
+                to="/experience"
                 style={{ fontWeight: "500" }}
               >
                 <span
@@ -97,7 +98,7 @@ function Nav() {
                   02. &nbsp;
                 </span>
                 Experience
-              </HashLink>
+              </NavLink>
             </li>
             <li className="nav-item">
               <HashLink

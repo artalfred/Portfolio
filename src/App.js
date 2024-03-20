@@ -5,15 +5,16 @@ import "./css/style.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScroolToTop from "./Reusable/ScroolToTop";
+import Experience from "./components/Experience";
 
 function App() {
   return (
     <BrowserRouter>
       <Nav />
       <div className="App">
-        {/* <ScroolToTop /> */}
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </div>
       <Footer />

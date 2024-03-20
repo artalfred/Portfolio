@@ -27,7 +27,7 @@ const Project = [
   {
     id: 1,
     name: "ThriveLuxe",
-    description: "A news website utilizing New York Times API",
+    description: "An E-commerce Application for buying products",
     image: ThriveLuxe,
     url: "https://jazzy-churros-b580a3.netlify.app/",
     TechStack: [
@@ -52,7 +52,7 @@ const Project = [
   {
     id: 2,
     name: "AccuDaily",
-    description: "An E-commerce Application for buying products",
+    description: "A news website utilizing New York Times API",
     image: AccuDaily,
     url: "https://dazzling-sawine-9aec7e.netlify.app/",
     TechStack: [

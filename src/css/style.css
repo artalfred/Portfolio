@@ -8,6 +8,11 @@ html,
 body {
   color: #8892b0; }
 
+.farro-regular {
+  font-family: "Farro", sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
 .green {
   color: #64ffda; }
 
@@ -389,7 +394,34 @@ nav {
     color: #ffc107; }
 
 .experience {
-  padding: 8rem 0rem 2rem 0rem; }
+  padding: 12rem 20rem 2rem 20rem; }
+  @media (max-width: 1440px) {
+    .experience {
+      padding: 12rem 14rem 2rem 14rem; } }
+  @media (max-width: 1024px) {
+    .experience {
+      padding: 12rem 8rem 2rem 8rem; } }
+  @media (max-width: 768px) {
+    .experience {
+      padding: 12rem 2rem 2rem 2rem; } }
+  .experience__jobs {
+    border-left: 1px solid #8892b0; }
+  .experience__content {
+    margin-left: -2.1rem; }
+  .experience__circle {
+    border: 2px solid #64ffda;
+    background-color: #020c1b;
+    width: 1.2rem;
+    height: 1.1rem;
+    border-radius: 50%; }
+  .experience__info {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between; }
+    @media (max-width: 768px) {
+      .experience__info {
+        display: grid;
+        row-gap: 1rem; } }
 
 footer {
   padding: 2rem 0rem; }
