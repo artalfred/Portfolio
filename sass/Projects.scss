@@ -1,5 +1,5 @@
 .projects {
-  padding: 8rem 0rem;
+  padding: 0rem 0rem 8rem 0rem;
 
   &__list {
     margin-top: 6rem;
@@ -53,6 +53,64 @@
 
     @media (max-width: 991.98px) {
       margin-top: 6rem;
+    }
+
+    &__icons {
+      ion-icon {
+        font-size: 18px;
+        color: #8892b0;
+        margin-bottom: -4px;
+      }
+    }
+  }
+
+  .projects__others:hover {
+    color: blue;
+  }
+
+  &__cards {
+    height: 17rem;
+    border-radius: 12px;
+    background-color: #023f52;
+
+    @media (max-width: 991.98px) {
+      height: 100%;
+    }
+  }
+
+  &__parent {
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #112240;
+      transform: rotate(-2deg);
+    }
+  }
+
+  &__content {
+    border-radius: 4px;
+
+    h4 {
+      span {
+        margin-bottom: -6px;
+
+        ion-icon {
+          font-size: 20px;
+          transform: rotate(-40deg);
+        }
+      }
+    }
+
+    div {
+      span {
+        ion-icon {
+          color: #fff;
+        }
+      }
+    }
+
+    p {
+      font-size: 17px;
     }
   }
 }
@@ -144,4 +202,11 @@
   &__card {
     background: transparent;
   }
+}
+
+.projects__icons {
+  font-size: 18px;
+  color: #fff;
+  transform: rotate(-40deg);
+  margin-bottom: -8px;
 }

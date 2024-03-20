@@ -1,13 +1,15 @@
 import React from "react";
-import background from "../img/project/background.png";
+import Hero from "../img/HeroSection/Hero.jpg";
 import Button from "../Reusable/Button";
+import resume from "../Assets/bernales_art_alfred_resume.pdf";
+import bodyDark from "../img/HeroSection/bodyDark.png";
 
 function Home() {
   return (
     <div
       id="home"
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${bodyDark})`,
         height: "100vh",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -15,33 +17,25 @@ function Home() {
       }}
     >
       <div className="position-absolute start-50 translate-middle w-100 home container">
-        <h1 className="text-center display-4 home__title effect">
-          HEY, I'M ALFRED BERNALES
+        <h1 className="text-center display-1 home__title effect belleza-regular navy-lightest">
+          Art Bernales
         </h1>
+        <h3 className="text-center home__title effect belleza-regular navy-light-body">
+          Full stack Developer
+        </h3>
 
-        <div
-          className="d-flex justify-content-center effect"
-          style={{ marginTop: "2rem" }}
-        >
-          <p
-            className="text-center fw-lighter font-md"
-            style={{ maxWidth: "50rem" }}
-          >
-            Passionate frontend developer specializing in ReactJS, dedicated to
-            creating captivating web experiences. Let's collaborate and bring
-            your ideas to life!
+        <div className="d-flex justify-content-center effect">
+          <p className="text-center fw-light mt-4 navy-light-description home__description">
+            A 22-year-old IT Student and aspiring software developer based in
+            Mandaluyong, Philippines.
           </p>
         </div>
 
-        <a href="#projects" className="text-decoration-none">
-          <Button
-            title="PROJECTS"
-            position="center"
-            fontSize="md"
-            marginTop="5"
-            btnStyle={"warning"}
-          />
-        </a>
+        <div className="d-flex align-items-center justify-content-center gap-4">
+          <a href="#projects" className="text-decoration-none">
+            <Button title="PROJECTS" position="center" marginTop="5" />
+          </a>
+        </div>
       </div>
     </div>
   );

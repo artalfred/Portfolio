@@ -1,71 +1,88 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 import SecondaryTitle from "../Reusable/Title";
-import Button from "../Reusable/Button";
 import { Link } from "react-router-dom";
-import projects from "../Api";
+import Project from "../Api";
+import BodyBackground from "../img/HeroSection/bodyDark.png";
 
 function Projects() {
   return (
-    <div className="projects" id="projects">
-      <div className="container">
-        <SecondaryTitle
-          title="PROJECTS"
-          description="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
-        />
+    <div
+      className="projects"
+      id="projects"
+      style={{
+        backgroundImage: `url(${BodyBackground})`,
+      }}
+    >
+      <div className="container-xxl">
+        <div style={{ paddingTop: "7rem" }}>
+          <SecondaryTitle title="Some Things I’ve Built" />
+        </div>
 
-        <div className="projects__list container">
-          {projects.slice(0, 3).map((project, index) => {
+        <div className="row mt-3 row-gap-3">
+          {Project.map((project, el) => {
             return (
-              <div
-                key={project.id}
-                className="row gy-2 gx-5 align-items-center projects__row"
-              >
-                <div className="col-12 col-lg-6 projects__column">
-                  <div className="card border-0">
-                    <img src={project.img} alt="img" />
-                  </div>
-                </div>
-
-                <div className="col-12 col-lg-6 projects__column">
-                  <h3 className="fw-semibold m-0 projects__title">
-                    {project.name}
-                  </h3>
-                  <p className="font-secondary-paragraph fw-lighter mt-4 m-0 projects__description">
-                    {project.description}
-                  </p>
-
-                  <div className="projects__button">
-                    <Link
-                      preventScrollReset={true}
-                      to={`/project/${project.id}`}
-                      className="text-decoration-none"
-                    >
-                      <Button
-                        title="OVERVIEW"
-                        position="start"
-                        fontSize="sm"
-                        marginTop="4"
-                        btnStyle={"warning"}
+              <div className="col-sm-12 col-md-6 col-lg-4" key={project.id}>
+                <Link
+                  to={project.url}
+                  className="link-underline link-underline-opacity-0"
+                  target="__blank"
+                >
+                  <div className="projects__parent">
+                    <div>
+                      <img
+                        src={project.image}
+                        className="img-fluid"
+                        alt="Projects"
                       />
-                    </Link>
+                    </div>
+
+                    <div className="d-grid p-4 navy-dark box-shadow projects__content">
+                      <h4 className="navy-light fw-regular belleza-regular d-flex gap-2 align-items-center">
+                        {project.name}
+                        <span>
+                          <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                      </h4>
+                      <div className="d-flex gap-2"></div>
+                      <p className="belleza-regular navy-lightest">
+                        {project.description}
+                      </p>
+
+                      <p
+                        className="belleza-regular navy-lightest mt-3"
+                        style={{ fontSize: "14px" }}
+                      >
+                        TechStack
+                      </p>
+                      <ul className="d-flex gap-3 p-0">
+                        {project.TechStack.map((tool) => (
+                          <li
+                            className="list-group-item belleza-regular green"
+                            key={tool.id}
+                          >
+                            {tool.tool}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             );
           })}
         </div>
       </div>
 
-      <div className="d-flex justify-content-center projects__others">
-        <Link to="/projects">
-          <button
-            className={`btn btn-outline-warning fw-bold py-3 px-5 font-sm font-sm`}
-            style={{ letterSpacing: "1.4px" }}
-          >
-            OTHERS
-          </button>
+      <div className="d-flex justify-content-center projects__others d-flex gap-2">
+        <Link
+          to="/projects"
+          className="link-underline link-underline-opacity-0 belleza-regular fw-semibold fs-6 navy-light-body"
+        >
+          View Full Project Archive
         </Link>
+        <span className="projects__others__icons">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </span>
       </div>
     </div>
   );

@@ -1,109 +1,95 @@
 import React from "react";
-import SecondaryTitle from "../Reusable/Title";
-import Button from "../Reusable/Button";
-import resume from "../Assets/bernales_art_alfred_resume.pdf";
+import bodyDark from "../img/HeroSection/bodyDark.png";
 
 function About() {
   return (
-    <div className="about" id="about">
-      <div className="container">
-        <SecondaryTitle
-          title="ABOUT ME"
-          description="Here you will find more information about me, what I do, and my
-          current skills mostly in terms of programming and technology"
-        />
+    <div
+      className="about"
+      id="about"
+      style={{
+        backgroundImage: `url(${bodyDark})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="container-xxl">
+        <div className="d-flex justify-content-center">
+          <div className="d-grid justify-content-center align-items-center">
+            <h2 className="fw-semibold belleza-regular text-center navy-light">
+              Hi, I'm Art Alfred. Nice to meet you.
+            </h2>
+            <p className="text-center fw-light about__description mt-4">
+              I'm a Full stack developer with a passion for web development, and
+              a bootcamp graduate at kodeGo. With strong focus on
+              frontend-development, I succesfully delivered numerous projects,
+              showcasing expertise in creating visually appealing and
+              user-friendly websites.
+            </p>
 
-        <div className="about__info">
-          <div className="row g-5">
-            <div className="col-12 col-lg-6">
-              <h4 className="fw-bold">Get to know me!</h4>
+            <p className="text-center fw-light mt-5">
+              Here are a few technologies I’ve been working with recently:
+            </p>
+            <div className="row">
+              <div className="col-12 col-lg-4"></div>
 
-              <p className="fw-lighter font-secondary-paragraph mt-5">
-                I'm a <span className="fw-semibold">self-taught developer</span>{" "}
-                with a passion for web development, and a bootcamp graduate at
-                kodeGo. With strong focus on frontend-development, I succesfully
-                delivered numerous projects, showcasing expertise in creating
-                visually appealing and user-friendly websites.
-              </p>
-
-              <p className="fw-lighter font-secondary-paragraph mt-4">
-                I'm open to Job opportunities or Internship where I can
-                contribute, learn and grow. If you have a good opportunity that
-                matches my skills and experience then don't hesitate to{" "}
-                <span className="fw-semibold">contact</span> me.
-              </p>
-
-              <div className="about__info__button d-flex gap-4">
-                <a
-                  href={resume}
-                  download="bernales_art_alfred_resume"
-                  className="text-decoration-none"
-                >
-                  <Button
-                    title="RESUME"
-                    position="start"
-                    fontSize="sm"
-                    marginTop="5"
-                    btnStyle={"light"}
-                    btnBorder={"border"}
-                  />
-                </a>
-
-                <a
-                  href="mailto:bernalesartalfred@gmail.com"
-                  className="text-decoration-none"
-                >
-                  <Button
-                    title="CONTACT"
-                    position="start"
-                    fontSize="sm"
-                    marginTop="5"
-                    btnStyle={"warning"}
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-6">
-              <h4 className="fw-bold">My Skills</h4>
-
-              <div className="row row-cols-auto g-3 about__parent">
-                <div className="col">
-                  <div className="rounded-2 about__skills">WordPress</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">Javascript</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">React Native</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">jQuery</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">ReactJs</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">SASS/Scss</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">Tailwind</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">
-                    PHP (Basic Knowledge)
+              <div className="col-12 col-lg-4">
+                <div className="row row-cols-auto g-3 about__parent d-flex align-items-center justify-content-center">
+                  <div className="col">
+                    <p
+                      className="navy-lightest fw-light d-flex align-items-center gap-1 d-flex align-items-center gap-1"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span className="about__icons">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                      </span>
+                      Javascript
+                    </p>
                   </div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">
-                    MySql (Basic Knowledge)
+                  <div className="col">
+                    <p
+                      className="navy-lightest fw-light d-flex align-items-center gap-1"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span className="about__icons">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                      </span>
+                      React
+                    </p>
                   </div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">Canva</div>
-                </div>
-                <div className="col">
-                  <div className="rounded-2 about__skills">Figma</div>
+                  <div className="col">
+                    <p
+                      className="navy-lightest fw-light d-flex align-items-center gap-1"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span className="about__icons">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                      </span>
+                      Node.js
+                    </p>
+                  </div>
+                  <div className="col">
+                    <p
+                      className="navy-lightest fw-light d-flex align-items-center gap-1"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span className="about__icons">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                      </span>
+                      MongoDb
+                    </p>
+                  </div>
+                  <div className="col">
+                    <p
+                      className="navy-lightest fw-light d-flex align-items-center gap-1"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span className="about__icons">
+                        <ion-icon name="caret-forward-outline"></ion-icon>
+                      </span>
+                      WordPress
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

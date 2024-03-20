@@ -1,6 +1,15 @@
 .about {
-  padding: 8rem 0rem;
-  background-color: #fafafa;
+  padding: 8rem 0rem 2rem 0rem;
+
+  &__description {
+    width: 65%;
+    display: flex;
+    justify-self: center;
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+    }
+  }
 
   &__info {
     margin-top: 6rem;
@@ -26,5 +35,11 @@
     padding: 0.6rem 1.4rem;
     color: #666;
     background: rgba(153, 153, 153, 0.2);
+  }
+
+  &__icons {
+    ion-icon {
+      color: #ffc107;
+    }
   }
 }

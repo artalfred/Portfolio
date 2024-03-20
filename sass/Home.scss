@@ -1,13 +1,22 @@
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .home {
   top: 55%;
 
+  &__description {
+    width: 35rem;
+  }
+
   &__title {
-    font-weight: 800 !important;
+    font-weight: 600 !important;
+    letter-spacing: 3px;
   }
 
   &__description {
-    margin-top: 3rem;
-
     @media (max-width: 575.98px) {
       margin-top: 0.8rem;
     }

@@ -1,7 +1,14 @@
+.belleza-regular {
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 nav {
-  padding: 0rem 4rem !important;
-  height: 5.4rem;
-  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem 2rem 4rem !important;
+  height: 4.4rem;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
 
   @media (max-width: 991.98px) {
     padding: 0rem 1rem !important;
@@ -9,15 +16,13 @@ nav {
 }
 
 .navbar {
-  background: #fff;
-
   &__mobile {
     background: #fff !important;
     z-index: 2;
 
     @media (max-width: 991.98px) {
       position: absolute !important;
-      top: 5rem;
+      top: 4.4rem;
       width: 100%;
       left: 0;
       padding: 0rem 2rem;
@@ -26,6 +31,9 @@ nav {
 
   &__list {
     padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
 
     @media (max-width: 991.98px) {
       display: grid !important;
@@ -34,7 +42,16 @@ nav {
     }
 
     li {
+      @media (max-width: 991.98px) {
+        display: flex;
+        justify-content: center;
+      }
+
       a {
+        @media (max-width: 991.98px) {
+          font-size: 2rem !important;
+        }
+
         &:hover {
           color: #ffc107 !important;
         }
@@ -58,7 +75,23 @@ nav {
     color: #333;
 
     img {
-      height: 1.3rem !important;
+      height: 3rem !important;
     }
   }
+}
+
+.main-button {
+  padding: 1rem;
+}
+
+.navbar-collapse {
+  background-color: transparent !important;
+
+  @media (max-width: 991.98px) {
+    background-color: #112240 !important;
+  }
+}
+
+.css-3blfep-MuiSvgIcon-root {
+  color: #64ffda !important;
 }
