@@ -72,7 +72,7 @@ function Nav() {
               <HashLink
                 className="nav-link text-end font-sm belleza-regular navy-light"
                 aria-current="page"
-                to="#about"
+                to="/#about"
                 style={{ fontWeight: "500" }}
               >
                 <span
@@ -103,7 +103,7 @@ function Nav() {
             <li className="nav-item">
               <HashLink
                 className="nav-link text-dark text-end font-sm belleza-regular navy-light"
-                to="#projects"
+                to="/#projects"
                 style={{ fontWeight: "500" }}
               >
                 <span
