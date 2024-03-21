@@ -18,10 +18,10 @@ function Home() {
     >
       <div className="container">
         <div className="position-absolute" style={{ bottom: "0%" }}>
-          <h1 className="belleza-regular" style={{ opacity: ".1" }}>
+          <h3 className="belleza-regular" style={{ opacity: ".1" }}>
             If your're brave enough to say goodbye, life{" "}
             <br className="quote"></br> will reward you with a new hello.
-          </h1>
+          </h3>
           <p className="belleza-regular" style={{ opacity: ".3" }}>
             - Paulo Coelho
           </p>
