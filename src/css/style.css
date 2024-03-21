@@ -175,6 +175,10 @@ nav {
     .home__description {
       margin-top: 0.8rem; } }
 
+@media (max-width: 768px) {
+  .quote {
+    display: none; } }
+
 .services {
   padding: 1rem 2rem; }
   @media (max-width: 575.98px) {

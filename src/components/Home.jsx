@@ -16,6 +16,18 @@ function Home() {
         backgroundPosition: "center",
       }}
     >
+      <div className="container">
+        <div className="position-absolute" style={{ bottom: "0%" }}>
+          <h1 className="belleza-regular" style={{ opacity: ".1" }}>
+            If your're brave enough to say goodbye, life{" "}
+            <br className="quote"></br> will reward you with a new hello.
+          </h1>
+          <p className="belleza-regular" style={{ opacity: ".3" }}>
+            - Paulo Coelho
+          </p>
+        </div>
+      </div>
+
       <div className="position-absolute start-50 translate-middle w-100 home container">
         <h1 className="text-center display-1 home__title effect belleza-regular navy-lightest">
           Art Bernales
