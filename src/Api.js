@@ -1,6 +1,7 @@
 import AccuDaily from "../src/img/Projects/AccuDaily.png";
 import ThriveLuxe from "../src/img/Projects/ThriveLuxe.png";
 import DeCastroConsulting from "../src/img/Projects/DeCastroConsulting.png";
+import ArtfulPotteryPro from "../src/img/Projects/ArtfulPotteryPro.jpg";
 
 const Project = [
   {
@@ -67,6 +68,31 @@ const Project = [
       {
         id: 2,
         tool: "SCSS",
+      },
+      {
+        id: 4,
+        tool: "Netlify",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Artful Potterypro",
+    description: "Landing page for a ceramic courses program",
+    image: ArtfulPotteryPro,
+    url: "https://artfulpotterypro.netlify.app/",
+    TechStack: [
+      {
+        id: 0,
+        tool: "React",
+      },
+      {
+        id: 1,
+        tool: "Styled Components",
+      },
+      {
+        id: 2,
+        tool: "Tailwind",
       },
       {
         id: 4,
