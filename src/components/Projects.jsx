@@ -54,10 +54,13 @@ function Projects() {
                       >
                         TechStack
                       </p>
-                      <ul className="d-flex gap-3 p-0">
+                      <ul
+                        className="row gap-3"
+                        style={{ paddingLeft: ".8rem" }}
+                      >
                         {project.TechStack.map((tool) => (
                           <li
-                            className="list-group-item belleza-regular green"
+                            className="col-auto list-group-item belleza-regular green"
                             key={tool.id}
                           >
                             {tool.tool}
