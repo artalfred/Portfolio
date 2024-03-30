@@ -77,8 +77,8 @@ const Project = [
   },
   {
     id: 2,
-    name: "Artful Potterypro",
-    description: "Landing page for a ceramic courses program",
+    name: "Artful PotteryPro",
+    description: "Full stack web app for ceramic courses program",
     image: ArtfulPotteryPro,
     url: "https://artfulpotterypro.netlify.app/",
     TechStack: [
