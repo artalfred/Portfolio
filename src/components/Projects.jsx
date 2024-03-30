@@ -3,6 +3,7 @@ import SecondaryTitle from "../Reusable/Title";
 import { Link } from "react-router-dom";
 import Project from "../Api";
 import BodyBackground from "../img/HeroSection/bodyDark.png";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Projects() {
   return (
@@ -44,7 +45,7 @@ function Projects() {
                         </span>
                       </h4>
                       <div className="d-flex gap-2"></div>
-                      <p className="belleza-regular navy-lightest">
+                      <p className="belleza-regular navy-lightest pb-2">
                         {project.description}
                       </p>
 
