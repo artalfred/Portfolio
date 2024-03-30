@@ -88,15 +88,24 @@ const Project = [
       },
       {
         id: 1,
-        tool: "Styled Components",
+        tool: "NodeJs",
       },
       {
         id: 2,
-        tool: "Tailwind",
+        tool: "MongoDb",
+      },
+      {
+        id: 3,
+        tool: "Styled Components",
       },
       {
         id: 4,
-        tool: "Netlify",
+        tool: "Tailwind",
+      },
+
+      {
+        id: 5,
+        tool: "Netlify/don't have web hosting yet",
       },
     ],
   },
