@@ -80,7 +80,7 @@ const Project = [
     name: "Artful PotteryPro",
     description: "Full stack web app for ceramic courses program",
     image: ArtfulPotteryPro,
-    url: "https://artfulpotterypro.netlify.app/",
+    url: "https://artfulpotteryprofrontend.netlify.app/",
     TechStack: [
       {
         id: 0,
