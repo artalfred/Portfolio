@@ -100,7 +100,7 @@ const Project = [
       },
       {
         id: 4,
-        tool: "Tailwind",
+        tool: "TailwindCSS",
       },
 
       {
