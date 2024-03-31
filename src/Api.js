@@ -105,7 +105,7 @@ const Project = [
 
       {
         id: 5,
-        tool: "Netlify / Note: Don't have server yet",
+        tool: "Netlify / Note: Don't have server hosting yet",
       },
     ],
   },
