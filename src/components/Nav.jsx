@@ -41,9 +41,9 @@ function Nav() {
     >
       <div className="container-xxl p-0">
         <div className="d-flex align-items-center gap-1">
-          <a href="/" className="navbar-brand navbar__logo">
+          <NavLink to="/" className="navbar-brand navbar__logo">
             <img src={Logo_v4} alt="logo" />
-          </a>
+          </NavLink>
         </div>
         <button
           className="navbar-toggler border-0 p-0"
@@ -70,9 +70,9 @@ function Nav() {
           <ul className="nav justify-content-end navbar__list gap-1 px-0">
             <li className="nav-item">
               <HashLink
+                to="/#about"
                 className="nav-link text-end font-sm belleza-regular navy-light"
                 aria-current="page"
-                to="/#about"
                 style={{ fontWeight: "500" }}
               >
                 <span
@@ -102,8 +102,8 @@ function Nav() {
             </li>
             <li className="nav-item">
               <HashLink
-                className="nav-link text-dark text-end font-sm belleza-regular navy-light"
                 to="/#projects"
+                className="nav-link text-dark text-end font-sm belleza-regular navy-light"
                 style={{ fontWeight: "500" }}
               >
                 <span
