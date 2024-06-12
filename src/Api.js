@@ -1,7 +1,7 @@
 import AccuDaily from "../src/img/Projects/AccuDaily.png";
 import ThriveLuxe from "../src/img/Projects/ThriveLuxe.png";
 import DeCastroConsulting from "../src/img/Projects/DeCastroConsulting.png";
-import ArtfulPotteryPro from "../src/img/Projects/ArtfulPotteryPro.jpg";
+import ArtfulPotteryPro from "../src/img/Projects/ArtfulPotteryPro.png";
 
 const Project = [
   {
