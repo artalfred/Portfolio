@@ -2,6 +2,7 @@ import AccuDaily from "../src/img/Projects/AccuDaily.png";
 import ThriveLuxe from "../src/img/Projects/ThriveLuxe.png";
 import DeCastroConsulting from "../src/img/Projects/DeCastroConsulting.png";
 import ArtfulPotteryPro from "../src/img/Projects/ArtfulPotteryPro.png";
+import decastrolegalfirm from "../src/img/Projects/Decastrolegalfirm.jpg";
 
 const Project = [
   {
@@ -76,7 +77,7 @@ const Project = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Artful PotteryPro",
     description: "Full stack web app for ceramic courses program",
     image: ArtfulPotteryPro,
@@ -106,6 +107,32 @@ const Project = [
       {
         id: 5,
         tool: "Netlify / Note: Don't have server hosting yet",
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "De Castro Legal Firm",
+    description:
+      "This website showcases a law firm that offers comprehensive legal services",
+    image: decastrolegalfirm,
+    url: "https://decastrolegalfirm.com/",
+    TechStack: [
+      {
+        id: 0,
+        tool: "WordPress",
+      },
+      {
+        id: 1,
+        tool: "Elementor",
+      },
+      {
+        id: 2,
+        tool: "SEO",
+      },
+      {
+        id: 3,
+        tool: "CSS",
       },
     ],
   },
