@@ -24,21 +24,21 @@ function Experience() {
               <div className="experience__info">
                 <div>
                   <h5 className="belleza-regular green mb-0">
-                    De Castro Consulting
+                    Web Developer Intern
                   </h5>
                   <h6 className="belleza-regular navy-light-body d-grid gap-2">
-                    Web Developer Intern
+                    De Castro Consulting
                   </h6>
                 </div>
                 <h5 className="fs-6 green">10/2023 - Current</h5>
               </div>
               <p className="belleza-regular">
-                Led a dynamic web development team in spearheading a website
-                overhaul for our company, utilizing WordPress to craft a
-                polished online presence. Seamlessly executed the transfer of
-                domains and servers to a new platform, ensuring smooth
-                transitions and enhanced functionality. Delivered outstanding
-                results through collaborative leadership and technical prowess.
+                I coordinated tasks and daily team meetings to facilitate
+                efficient collaboration, ensuring the team remained
+                synchronized. I also led website design and layout, prioritizing
+                a user-friendly experience. Utilizing WordPress and various web
+                development technologies, played a pivotal role in achieving
+                project success.
               </p>
             </div>
           </div>
