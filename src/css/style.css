@@ -365,9 +365,14 @@ nav {
 
 .projects__icons {
   font-size: 18px;
-  color: #fff;
   transform: rotate(-40deg);
   margin-bottom: -8px; }
+
+.projectBtn {
+  transition: all 0.1s ease-in-out; }
+
+.projectBtn:hover {
+  color: #64ffda !important; }
 
 .about {
   padding: 8rem 0rem 2rem 0rem; }

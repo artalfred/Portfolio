@@ -206,7 +206,15 @@
 
 .projects__icons {
   font-size: 18px;
-  color: #fff;
   transform: rotate(-40deg);
   margin-bottom: -8px;
+}
+
+// PROJECTS BUTTON
+.projectBtn {
+  transition: all 0.1s ease-in-out;
+}
+
+.projectBtn:hover {
+  color: #64ffda !important;
 }

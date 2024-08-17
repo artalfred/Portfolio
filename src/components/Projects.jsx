@@ -80,13 +80,13 @@ function Projects() {
       <div className="d-flex justify-content-center projects__others d-flex gap-2">
         <Link
           to="/projects"
-          className="link-underline link-underline-opacity-0 belleza-regular fw-semibold fs-6 navy-light-body"
+          className="link-underline link-underline-opacity-0 belleza-regular fw-semibold fs-6 navy-light-body projectBtn d-flex gap-2"
         >
           View Full Project Archive
+          <span className="projects__others__icons projectBtn__arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </span>
         </Link>
-        <span className="projects__others__icons">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </span>
       </div>
     </div>
   );
