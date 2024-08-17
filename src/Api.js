@@ -31,7 +31,7 @@ const Project = [
     name: "ThriveLuxe",
     description: "An E-commerce Application for buying products",
     image: ThriveLuxe,
-    url: "https://jazzy-churros-b580a3.netlify.app/",
+    url: "https://thriveluxe.netlify.app/",
     TechStack: [
       {
         id: 0,
