@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScroolToTop from "./Reusable/ScroolToTop";
 import Experience from "./components/Experience";
+import Archive from "../src/components/Archive";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/archive" element={<Archive />} />
         </Routes>
       </div>
       <Footer />

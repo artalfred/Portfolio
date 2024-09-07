@@ -1,0 +1,14 @@
+.archive_name {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: #64ffda !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .Archive_tools {
+    display: none !important;
+  }
+}

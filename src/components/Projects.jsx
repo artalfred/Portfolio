@@ -79,7 +79,7 @@ function Projects() {
 
       <div className="d-flex justify-content-center projects__others d-flex gap-2">
         <Link
-          to="/projects"
+          to="/archive"
           className="link-underline link-underline-opacity-0 belleza-regular fw-semibold fs-6 navy-light-body projectBtn d-flex gap-2"
         >
           View Full Project Archive

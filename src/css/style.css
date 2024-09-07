@@ -432,6 +432,16 @@ nav {
         display: grid;
         row-gap: 1rem; } }
 
+.archive_name {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; }
+  .archive_name:hover {
+    color: #64ffda !important; }
+
+@media (max-width: 860px) {
+  .Archive_tools {
+    display: none !important; } }
+
 footer {
   padding: 2rem 0rem; }
 
