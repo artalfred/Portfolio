@@ -14,12 +14,16 @@ function Archive() {
       }}
     >
       <div className="container-xxl">
-        <div className="d-flex align-items-center gap-2 pb-3 archive_name">
+        <Link
+          to="/"
+          className="d-flex align-items-center gap-2 navy-light pb-3 archive_name"
+          style={{ textDecoration: "none" }}
+        >
           <span className="d-flex align-items-center">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </span>
           <h6 className="mb-0">Art Alfred</h6>
-        </div>
+        </Link>
 
         <h1 className="navy-light fw-semibold">All Projects</h1>
 
@@ -57,8 +61,8 @@ function Archive() {
                   <Link
                     to={Archive.url}
                     target="_blank"
-                    className="d-flex align-items-center gap-2 navy-light link-underline-dark archive_name"
-                    style={{ fontSize: "15px" }}
+                    className="d-flex align-items-center gap-2 navy-light archive_name"
+                    style={{ fontSize: "15px", textDecoration: "none" }}
                   >
                     {Archive.name}
                     <span
