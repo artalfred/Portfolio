@@ -11,9 +11,11 @@ function Archive() {
       style={{
         backgroundImage: `url(${BodyBackground})`,
         paddingTop: "10rem",
+        paddingRight: "1.2rem",
+        paddingLeft: "1.2rem",
       }}
     >
-      <div className="container-xxl px-2">
+      <div className="container-xxl">
         <Link
           to="/"
           className="d-flex align-items-center gap-2 navy-light pb-3 archive_name"
