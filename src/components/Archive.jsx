@@ -13,7 +13,7 @@ function Archive() {
         paddingTop: "10rem",
       }}
     >
-      <div className="container-xxl">
+      <div className="container-xxl px-2">
         <Link
           to="/"
           className="d-flex align-items-center gap-2 navy-light pb-3 archive_name"
