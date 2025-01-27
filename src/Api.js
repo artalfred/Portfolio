@@ -3,6 +3,8 @@ import ThriveLuxe from "../src/img/Projects/ThriveLuxe.png";
 import DeCastroConsulting from "../src/img/Projects/DeCastroConsulting.png";
 import PotteryPro from "../src/img/Projects/PotteryPro.jpg";
 import decastrolegalfirm from "../src/img/Projects/Decastrolegalfirm.jpg";
+import InduReach from "../src/img/Projects/InduReach.jpg";
+import NexPackAutomation from "../src/img/Projects/NexPackAutomation.jpg";
 
 const Project = [
   {
@@ -116,11 +118,10 @@ const Project = [
   },
   {
     id: 4,
-    name: "De Castro Legal Firm",
-    description:
-      "This website showcases a law firm that offers comprehensive legal services",
-    image: decastrolegalfirm,
-    url: "https://decastrolegalfirm.com/",
+    name: "NexpackAutomation",
+    description: "Automated Food Manufacturing",
+    image: NexPackAutomation,
+    url: "https://nexpackautomation.com/",
     TechStack: [
       {
         id: 0,
@@ -136,6 +137,35 @@ const Project = [
       },
       {
         id: 3,
+        tool: "CSS",
+      },
+    ],
+  },
+  {
+    id: 0,
+    name: "InduReach",
+    description: "Industrial Automation Business",
+    image: InduReach,
+    url: "https://indureach.com/",
+    TechStack: [
+      {
+        id: 0,
+        tool: "WordPress",
+      },
+      {
+        id: 1,
+        tool: "Elementor",
+      },
+      {
+        id: 3,
+        tool: "SEO",
+      },
+      {
+        id: 4,
+        tool: "Pages",
+      },
+      {
+        id: 5,
         tool: "CSS",
       },
     ],

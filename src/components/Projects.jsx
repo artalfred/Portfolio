@@ -3,7 +3,6 @@ import SecondaryTitle from "../Reusable/Title";
 import { Link } from "react-router-dom";
 import Project from "../Api";
 import BodyBackground from "../img/HeroSection/bodyDark.png";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Projects() {
   return (

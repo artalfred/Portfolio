@@ -3,8 +3,62 @@ import ThriveLuxe from "../src/img/Projects/ThriveLuxe.png";
 import DeCastroConsulting from "../src/img/Projects/DeCastroConsulting.png";
 import PotteryPro from "../src/img/Projects/PotteryPro.jpg";
 import decastrolegalfirm from "../src/img/Projects/Decastrolegalfirm.jpg";
+import InduReach from "../src/img/Projects/InduReach.jpg";
+import NexpackAutomation from "../src/img/Projects/NexPackAutomation.jpg";
 
 const Archive = [
+  {
+    id: 1,
+    name: "NexpackAutomation",
+    description: "Automated Food Manufacturing",
+    image: NexpackAutomation,
+    url: "https://nexpackautomation.com/",
+    year: 2025,
+    TechStack: [
+      {
+        id: 0,
+        tool: "WordPress",
+      },
+      {
+        id: 1,
+        tool: "Elementor",
+      },
+      {
+        id: 2,
+        tool: "SEO",
+      },
+      {
+        id: 3,
+        tool: "CSS",
+      },
+    ],
+  },
+  {
+    id: 1,
+    name: "InduReach",
+    description: "Industrial Automation Business",
+    image: InduReach,
+    url: "https://indureach.com/",
+    year: 2025,
+    TechStack: [
+      {
+        id: 0,
+        tool: "WordPress",
+      },
+      {
+        id: 1,
+        tool: "Elementor",
+      },
+      {
+        id: 2,
+        tool: "SEO",
+      },
+      {
+        id: 3,
+        tool: "CSS",
+      },
+    ],
+  },
   {
     id: 1,
     name: "De Castro Legal Firm",
